@@ -1,0 +1,248 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+
+
+
+configurations {
+    compile.exclude module: 'support-v4'
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services-gcm:11.0.4'
+    compile 'com.google.android.gms:play-services-maps:11.0.4'
+    compile 'com.google.android.gms:play-services-vision:11.0.4'
+    compile 'com.google.android.gms:play-services-wallet:11.0.4'
+    compile 'com.google.android.gms:play-services-wearable:11.0.4'
+    compile 'com.android.support:support-core-ui:25.3.1'
+    compile 'com.android.support:support-compat:25.3.1'
+    compile 'com.android.support:support-core-utils:25.3.1'
+    compile 'com.android.support:support-v13:25.3.1'
+    compile 'com.android.support:palette-v7:25.3.1'
+    compile 'net.hockeyapp.android:HockeySDK:4.1.3'
+    compile 'com.googlecode.mp4parser:isoparser:1.0.6'
+    compile 'com.stripe:stripe-android:2.0.2'
+    compile 'com.google.android.gms:play-services-analytics:11.0.2'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'commons-io:commons-io:2.5'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.onesignal:OneSignal:3.+@aar'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:recyclerview-v7:25.0.+'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'joda-time:joda-time:2.9.9'
+    compile 'com.koushikdutta.ion:ion:2.+'
+    compile 'com.wdullaer:materialdatetimepicker:3.2.2'
+    compile 'com.getkeepsafe.taptargetview:taptargetview:1.9.1'
+    compile 'com.android.support:design:25.1.1'
+
+    compile 'co.ronash.android:pushe-base:1.3.3'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+
+
+
+
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig.applicationId = "org.zgram.messenger"
+
+    sourceSets.main.jniLibs.srcDirs = ['./jni/']
+
+    externalNativeBuild {
+        ndkBuild {
+            path "jni/Android.mk"
+        }
+    }
+
+    dexOptions {
+        jumboMode = true
+        javaMaxHeapSize "4g"
+    }
+
+
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+
+
+
+
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("config/release.keystore")
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+            v2SigningEnabled false
+        }
+        release {
+            storeFile file('C:/Users/mrb/Desktop/aa.jks')
+            storePassword '22446688'
+            keyAlias 'aa'
+            keyPassword '22446688'
+            v2SigningEnabled false
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            signingConfig signingConfigs.debug
+            applicationIdSuffix ".beta"
+        }
+
+        release {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        foss {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release
+        }
+    }
+
+<<<<<<< HEAD
+    defaultConfig.versionCode = 825
+=======
+    defaultConfig.versionCode = 1155
+>>>>>>> e9e40cb13ea942b148b259c083fb3364a0cd90ea
+
+    sourceSets.debug {
+        manifest.srcFile 'config/debug/AndroidManifest.xml'
+    }
+
+    sourceSets.release {
+        manifest.srcFile 'config/release/AndroidManifest.xml'
+    }
+
+    sourceSets.foss {
+        manifest.srcFile 'config/foss/AndroidManifest.xml'
+    }
+
+    flavorDimensions "minApi"
+
+    productFlavors {
+        x86 {
+            ndk {
+                abiFilter "x86"
+            }
+            versionCode = 2
+        }
+        armv7 {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+            versionCode = 1
+        }
+        x86_SDK23 {
+            ndk {
+                abiFilter "x86"
+            }
+            sourceSets.debug {
+                manifest.srcFile 'config/debug/AndroidManifest_SDK23.xml'
+            }
+            sourceSets.release {
+                manifest.srcFile 'config/release/AndroidManifest_SDK23.xml'
+            }
+            minSdkVersion 23
+            versionCode = 4
+        }
+        armv7_SDK23 {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+            sourceSets.debug {
+                manifest.srcFile 'config/debug/AndroidManifest_SDK23.xml'
+            }
+            sourceSets.release {
+                manifest.srcFile 'config/release/AndroidManifest_SDK23.xml'
+            }
+            minSdkVersion 23
+            versionCode = 3
+        }
+        fat {
+            sourceSets.debug {
+                manifest.srcFile 'config/debug/AndroidManifest_SDK23.xml'
+            }
+            sourceSets.release {
+                manifest.srcFile 'config/release/AndroidManifest_SDK23.xml'
+            }
+            versionCode = 5
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            output.processManifest.doLast {
+                def abiVersion = variant.productFlavors.get(0).versionCode
+                String manifestPath = "$manifestOutputDirectory/AndroidManifest.xml"
+                def manifestContent = file(manifestPath).getText()
+                manifestContent = manifestContent.replace(String.format('android:versionCode="%d"', abiVersion), String.format('android:versionCode="%s"', defaultConfig.versionCode * 10 + abiVersion))
+                file(manifestPath).write(manifestContent)
+            }
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+<<<<<<< HEAD
+        targetSdkVersion 26
+        versionName "A-4.2.1"
+        multiDexEnabled true
+
+
+        manifestPlaceholders = [onesignal_app_id : "858dcasfhg757556ddd23da47-4e7dcfgfgfdce-4adc-8c8611-8686jujudf0b81251f8",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "REMOTE"]
+
+
+=======
+        targetSdkVersion 25
+        versionName "4.6.0"
+>>>>>>> e9e40cb13ea942b148b259c083fb3364a0cd90ea
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments "NDK_APPLICATION_MK:=jni/Application.mk", "APP_PLATFORM:=android-14"
+                abiFilters "armeabi-v7a", "x86"
+            }
+        }
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

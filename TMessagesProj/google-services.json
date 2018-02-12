@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1046424214284",
+    "firebase_url": "https://yjcc-48b8a.firebaseio.com",
+    "project_id": "yjcc-48b8a",
+    "storage_bucket": "yjcc-48b8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046425284214284:android:45de22526f550737c2c",
+        "android_client_info": {
+          "package_name": "org.zgram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104642425214284-fp9afgfgpfl0k9r5qtg04b2rg6mogtk8mkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzdggaSyCHgpiRzneempa12NO225250203YZaUvxG0TW8I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

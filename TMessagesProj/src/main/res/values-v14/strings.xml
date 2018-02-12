@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="unHideAChat">unHideAChat</string>
+    <string name="unHideSpecialChat">unHideAChat</string>
+    <string name="ghostmode">ghostmode</string>
+    <string name="Hidden">Hidden</string>
+    <string name="ViewSetting">ViewSetting</string>
+    <string name="hideGhostMode">hideGhostMode</string>
+    <string name="dont_Tik">dont_Tik</string>
+    <string name="hideLockMode">hideLockMode</string>
+    <string name="FontChange">FontChange</string>
+    <string name="UsernameFinder">UserFinder</string>
+
+    <string name="CopyAllText">CopyAllText</string>
+    <string name="UsernameFinderHelp">به راحتی افراد، کانال ها و ربات ها را با UserFinder &lt;b>تلگرام&lt;/b> پیدا کنید. &lt;br>&lt;br>پس از وارد کردن آیدی (نام کاربری) مورد نظر و موجود بودن آن (رنگ سبز) روی تیک بالای صفحه کلیک نمایید. &lt;br>&lt;br>آیدی ها می توانند شامل &lt;b>a–z&lt;/b>, &lt;b>0–9&lt;/b> و زیرخط (_) باشند. حداقل طول آیدی &lt;b>5&lt;/b> کاراکتر است. &lt;br>&lt;br>توجه: دسترسی و پیام دادن بیش از حد به افرادی که در لیست مخاطبان شما نیستند می تواند اسپم شدن حساب شما را در بر داشته باشد. این موضوع باعث می شود برخی از امکانات حسابتان مانند پیام دادن به افراد ناشناس، محدود شود. از این امکان بهینه و مفید استفاده نمایید.</string>
+    <string name="UsernameFounded">کاربر پیدا شد برای گفتگو دکمه تایید در بالای صفحه را بزنید</string>
+    <string name="Clearcache">CleanCach</string>
+    <string name="mute">mute</string>
+    <string name="GoToChatMarkerEmpty">GoToChatMarkerEmpty</string>
+    <string name="LeaveWithoutDeleteMsg">LeaveWithoutDeleteMsg</string>
+    <string name="sendTime">sendTime</string>
+    <string name="Sent">Sent</string>
+    <string name="ForwardSettings">ForwardSettings</string>
+    <string name="MediaCaption">MediaCaption</string>
+    <string name="Media">Media</string>
+    <string name="TimedForward">TimedForward</string>
+    <string name="ProForwardError">ProForwardError</string>
+    <string name="ForwardPro">ForwardPro</string>
+    <string name="CopyPartionText">CopyPartionText</string>
+    <string name="savetocloud">savetocloud</string>
+    <string name="SetChatMarker">SetChatMarker</string>
+    <string name="DeleteChatMarker">DeleteChatMarker</string>
+    <string name="addShortcut">addShortcut</string>
+    <string name="RegChannel">RegChannel</string>
+    <string name="SelectFont">SelectFont</string>
+    <string name="ReportElimination">Report Elimination</string>
+    <string name="Secretary">Secretary</string>
+    <string name="Admins">Admins</string>
+    <string name="AreYouSureToContinue">AreYouSureToContinue</string>
+    <string name="AddToDownloads">AddToDownloads</string>
+    <string name="AddedToDownloads">AddedToDownloads</string>
+    <string name="wellcome">wellcome</string>
+
+    <string name="Cloudu">Cloudu</string>
+    <string name="Searchu">Search in your conversations</string>
+    <string name="Searchc">SearchContacts</string>
+    <string name="chat">Click here to change the voice</string>
+    <string name="drawer">Filter Type Files</string>
+    <string name="reported" />
+    <string name="ChannelFinder">ChannelFinder</string>
+    <string name="reportChannel">reportChannel</string>
+    <string name="reportMessage">reportMessage</string>
+    <string name="detail">detail</string>
+    <string name="detailError">detailError</string>
+    <string name="AppAccountAutoSyncEnable">AppAccountAutoSyncEnable</string>
+    <string name="AppAccountAutoSyncDisable">AppAccountAutoSyncDisable</string>
+    <string name="UserAdd">UserAdd</string>
+    <string name="UserAddAlert">UserAddAlert</string>
+    <string name="UserChange">UserChange</string>
+    <string name="UserChangeAlert">UserChangeAlert</string>
+    <string name="Change">Change</string>
+    <string name="UserFolderPrivate">UserFolderPrivate</string>
+    <string name="UserNotActive">UserNotActive</string>
+    <string name="UserFolderPublic">UserFolderPublic</string>
+    <string name="UserRemove">UserRemove</string>
+    <string name="UserRemoveAlert">UserRemoveAlert</string>
+    <string name="UserRestartAlert">UserRestartAlert</string>
+
+
+
+
+
+
+
+    <string name="AppAccountFolderPublicRow">Public folder</string>
+    <string name="AppAccountFolderRow">Folder name %1$s</string>
+    <string name="AppAccountManage">Manage accounts</string>
+    <string name="AppAccountName">App Account Name</string>
+    <string name="AppAccountRow">Account %1$s</string>
+    <string name="AppAccountRowMain">Main account %1$s</string>
+    <string name="profilemaker">profilemaker</string>
+    <string name="EnterNameForProfileMaker">EnterNameForProfileMaker</string>
+    <string name="ChangedSuccessfuly">ChangedSuccessfuly</string>
+    <string name="get_online">get_online</string>
+    <string name="get_offline">get_offline</string>
+    <string name="changed_name">changed_name</string>
+    <string name="changed_phone">changed_phone</string>
+    <string name="change_status">change_status</string>
+    <string name="old_name">old_name</string>
+    <string name="new_name">new_name</string>
+    <string name="old_phone">old_phone</string>
+    <string name="new_phone">new_phone</string>
+    <string name="Farvardin">Farvardin</string>
+    <string name="Ordibehesht">Ordibehesht</string>
+    <string name="Khordad">Khordad</string>
+    <string name="Tir">Tir</string>
+    <string name="Shahrivar">Shahrivar</string>
+    <string name="Mehr">Mehr</string>
+    <string name="Aban">Aban</string>
+    <string name="Azar">Azar</string>
+    <string name="Dey">Dey</string>
+    <string name="Bahman">Bahman</string>
+    <string name="Esfand">Esfand</string>
+    <string name="AreYouSureDeleteChanges">AreYouSureDeleteChanges</string>
+    <string name="ContactsChanges">ContactsChanges</string>
+    <string name="NoContactChanges">NoContactChanges</string>
+    <string name="EnableSpecialContactsService">EnableSpecialContactsService</string>
+    <string name="EnableSpecialContactsServiceDetails">EnableSpecialContactsServiceDetails</string>
+    <string name="EnableSCServiceDes">EnableSCServiceDes</string>
+    <string name="NoSpecialContacts">NoSpecialContacts</string>
+    <string name="SpecialContacts">SpecialContacts</string>
+    <string name="SettingsDefault">SettingsDefault</string>
+    <string name="SystemDefault">SystemDefault</string>
+    <string name="GetOnline">GetOnline</string>
+    <string name="GetOffline">GetOffline</string>
+    <string name="AllChanges">AllChanges</string>
+    <string name="change_name">change_name</string>
+    <string name="change_photo">change_photo</string>
+    <string name="change_phone">change_phone</string>
+    <string name="filter_title">filter_title</string>
+    <string name="AM">AM</string>
+    <string name="PM">PM</string>
+    <string name="minis5">minis5</string>
+    <string name="UserRemoveMain">UserRemoveMain</string>
+    <string name="UserRowMain">UserRowMain</string>
+    <string name="UserRow">UserRow</string>
+    <string name="UserFolderRow">UserFolderRow</string>
+    <string name="UserBackMain">UserBackMain</string>
+    <string name="UserBackMainAlert">UserBackMainAlert</string>
+    <string name="ChangeProfilePic">ChangeProfilePic</string>
+    <string name="ChangeProfileName">ChangeProfileName</string>
+    <string name="ChangeProfileUsername">ChangeProfileUsername</string>
+    <string name="UserChangeLog">UserChangeLog</string>
+    <string name="removed_all_photos">removed_all_photos</string>
+    <string name="removed_photo">removed_photo</string>
+    <string name="added_photo">added_photo</string>
+    <string name="added_you">added_you</string>
+    <string name="removed_you">removed_you</string>
+    <string name="send_message_in_telegram">send_message_in_telegram</string>
+    <string name="show_user_photos">show_user_photos</string>
+    <string name="ShowChangedPhoto">ShowChangedPhoto</string>
+    <string name="ShowHistory">ShowHistory</string>
+    <string name="change_mutual">change_mutual</string>
+    <string name="AreYouSureDeleteContactChanges">AreYouSureDeleteContactChanges</string>
+    <string name="TurnOffAlert">TurnOffAlert</string>
+    <string name="newChat">Press Long Click To Show Hidden Chats</string>
+
+
+</resources>

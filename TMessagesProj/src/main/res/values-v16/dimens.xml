@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="ui_font_size">18sp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="action_bar_logo_width">48dip</dimen>
+    <dimen name="action_button_width">48dp</dimen>
+    <dimen name="action_button_padding_v">4dp</dimen>
+    <dimen name="tool_palette_gutter">6dp</dimen>
+    <dimen name="tools_margin_top">@dimen/action_bar_height</dimen>badge_text_size
+
+
+    <dimen name="tool_bar_height">56dp</dimen>
+    <dimen name="menu_item_padding">2dp</dimen>
+    <dimen name="text_right_padding">28dp</dimen>
+    <dimen name="text_right_translation">8dp</dimen>
+    <dimen name="text_wrapper_right_margin">-8dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="menu_text_size">15sp</dimen>
+
+    <dimen name="key_line_4">5dp</dimen>
+    <dimen name="key_line_8">8dp</dimen>
+
+    <dimen name="box2">88dp</dimen>
+
+    <dimen name="toolbar_height2">60dp</dimen>
+</resources>

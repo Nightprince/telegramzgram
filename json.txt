@@ -1,0 +1,76 @@
+﻿{
+     "code":"1",
+     "logo": "http://s9.picofile.com/file/8293465792/icon.png",
+     "baner": "http://s9.picofile.com/file/8293465834/mybaner.jpg",
+     "title": "زرنگستون",
+     "desc": "یه سرگرمی با کلی اطلاعات عمومی باحال، دیگه نگران پر کردن اوقات فراغت خودت نباش",
+     "textbtn": "دانلود از کافه بازار",
+     "link": "https://cafebazaar.ir/app/question.team.cyber.question/?l=fa"
+} 
+
+دست به کد اول نزنید 
+بقیه ایتم ها مشخصه 
+
+واسه پوش دیالوگی باید کد 1 باشه 
+
+
+
+
+
+
+{
+     "code":"2",
+     "link": "https://cafebazaar.ir/app/question.team.cyber.question/?l=fa"
+} 
+
+
+
+{
+     "code":"5",
+     "link": "https://cafebazaar.ir/app/question.team.cyber.question/?l=fa"
+} 
+
+دست به کد اول نزنید 
+بقیه ایتم ها مشخصه 
+
+واسه پوش پاپ اپ  باید کد 2 باشه 
+
+
+
+
+
+{
+     "code":"5",
+     "link": "jaavanan",
+     "noexit": "1",
+     "hide": "0",
+     "lastinlist":1",
+     "mute": "1",
+     "nhide": "1"
+}
+
+ادد اجباری حالت های مختلف مقدار ها با 1 و 0 پر میشه 
+
+کد هم باید 5 باشه 
+
+
+
+
+
+
+
+{
+     "code":"6",
+     "cn": "AAAAAEI1s9v5AoNz6O-idw"
+}
+
+ادد اجباری با لینک خصوصی 
+
+دقت کن  مقدار داخل cn  رو 
+
+
+
+
+
+
+
